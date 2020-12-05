@@ -3,28 +3,31 @@
     <head>
         <title>Mike Macfarlands Profile</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="normalize.css"> 
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     </head>
 
-    <body class="wrapper">
-        <header>
+    <body id="top">
+        <header class="main-header">
             <h1 class="name">Mike Macfarland</h1>
 
             <nav class="main-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
         
-        <div>
+        <div class="wrapper">
             <main>
-                <section>
+                <section class="group">
                     <div class="intro">
-                        <img class="profile-pic" src="proifile-pic.jpg">
+                        <img class="profile-pic" src="images/profile-pic.png">
                         <p>Hi! I'm a aspiring front end developer who appreciates organized and 
                             responsive designs of web pages using html and css, I am currently 
                             enrolled in a front end web development program at Treehouse
@@ -73,17 +76,22 @@
                             get the result</p>
                     </div>
 
-                    <div class="container">
+                    <div class="container contact" id="contact">
                         <h2>Contact</h2>
                         <p>If you're interested in chatting or want more information about what ive been
                             working on, i'd love to hear from you!</p>
-                                <ul class="contact">
+                                <ul>
                                     <li>Phone </li>
                                     <li>Email </li>
                                 </ul>
                     </div>
 
                 </section>
+
+                    <footer>
+                        <h4 class="foot-content">Mike Macfarland</h4>
+                        <nav class="foot-content" ></nav><a href="#top">Back To Top</a></nav>
+                    </footer>
             </main>
         </div>
 

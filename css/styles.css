@@ -65,7 +65,52 @@ footer{
     margin: 5em 0 5em;
 }
 
+.skills {
+    margin-top: 5em;
+}
 
 .foot-content{
     display: inline-block;
 }
+
+/* @media styles */
+
+@media screen and (min-width: 768px) {
+
+    .container{
+        float:left;
+        width: 50%;
+    }
+
+    .group:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .skills,
+    .contact{
+        width:100%;
+    }
+
+
+}    
+
+
+@media screen and (min-width: 1024px) {
+
+    .container{
+        float: left;
+        width: 33%;
+    }
+
+    .skills,
+    .contact{
+        width: 55%;
+    
+        
+    }
+
+    
+
+}    

@@ -48,6 +48,7 @@ footer li{
 footer h4{
     margin-bottom: 1em;
 }
+
 /* CLASS SELECTORS */
 
 .main-nav li{
@@ -69,7 +70,7 @@ footer h4{
 }
 
 .profile-pic{
-    width: 95%;
+    width: 100%;
 }
 
 .content-image{
@@ -79,6 +80,12 @@ footer h4{
 
 .contact{
     margin: 4em 0;
+}
+
+.contact a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 900;
+    color:  grey;
 }
 
 .contact ul,
@@ -115,16 +122,17 @@ footer h4{
     }
 
     .intro{
-        width:65%;
+        width:61%;
     }
 
     .intro p{
-        padding-right:;
+        padding-right: 5%;
     }
 
     .container-1{
-        text-align:center;
+        text-align:left;
         width:35%;
+        padding-right:2.5%;
     }
     
     .container-2{
@@ -135,6 +143,7 @@ footer h4{
 
     .container-2 p{
         padding: 0 5px;
+        max-height:
     }
 
     .group:after {
@@ -149,7 +158,7 @@ footer h4{
         width:80%;
     }
 
-    footer {`
+    footer {
         margin-top: 3em;
     }
 
@@ -170,17 +179,16 @@ footer h4{
         padding: 1.33em 0 0 0;
         margin-left: 4em;
         display: inline-block;
-    
     }
 }    
 
 @media screen and (min-width: 1024px) {
 
-
     body{
         font-size: 1.3
         em;
     }
+
     .container-2{
         float: left;
         width: 33%;
@@ -191,7 +199,6 @@ footer h4{
         margin:auto;
         width: 55%;
     }
-
 }    
 
 @media screen and (min-width: 1024px) {

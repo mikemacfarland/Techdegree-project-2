@@ -1,6 +1,6 @@
 /* GLOBAL SELECTOR */
 
-*/{
+*{
     box-sizing: border-box;
 }
 
@@ -143,7 +143,6 @@ footer h4{
 
     .container-2 p{
         padding: 0 5px;
-        max-height:
     }
 
     .group:after {
@@ -185,8 +184,7 @@ footer h4{
 @media screen and (min-width: 1024px) {
 
     body{
-        font-size: 1.3
-        em;
+        font-size: 1.3em;
     }
 
     .container-2{

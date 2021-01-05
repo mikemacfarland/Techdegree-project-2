@@ -162,10 +162,12 @@ a:active{
     header h1{
         float: left;
     }
+    
     header li{
         display: inline-block;
         float: right;
     }
+
     .container-1,
     .intro{
         float:right;
